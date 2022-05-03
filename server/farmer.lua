@@ -1,5 +1,5 @@
 ESX = nil
-TriggerEvent('esx:SupremeObject', function(obj) ESX = obj end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterServerEvent('inside-farmer:payout')
 AddEventHandler('inside-farmer:payout', function(arg)	

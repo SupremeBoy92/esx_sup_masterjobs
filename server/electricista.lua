@@ -1,7 +1,7 @@
 ESX                			 = nil
 local PlayersVente			 = {}
 
-TriggerEvent('esx:SupremeObject', function(obj) ESX = obj end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterServerEvent('electricista:Pago')
 AddEventHandler('electricista:Pago', function()
